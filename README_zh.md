@@ -160,8 +160,44 @@ Skill 是装进 Claude Code、Codex 这类 agent 里的指令包。装好以后�
 | 需求 | 命令 | 什么时候用 |
 | --- | --- | --- |
 | 安装完整 Seedance 模板库 | `npx seedance-prompt-library install` | 最推荐先装这个。它会把完整模板库装进 Claude Code / Codex。 |
-| 只安装某一个垂直 Skill | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` | 只想做某一类视频时用这个。把命令里的 `seedance-meme-comedy` 换成下面任意一个 `seedance-...` Skill 名即可。 |
+| 只安装某一个垂直 Skill | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` | 只想做某一类视频时用这个。下面完整清单里每一条都能单独复制安装。 |
 | 安装 GoodCase 案例查询 Skill | `npx skills add LearnPrompt/goodcase-lite --skill goodcase` | 想让 agent 查更大的 GoodCase 案例库时用这个，不只限于本仓库。 |
+
+**完整安装命令清单**
+
+下面把 README 里列出的每个 Skill 安装命令全部写出来，直接复制对应命令即可：
+
+| Skill | 安装命令 |
+| --- | --- |
+| Seedance 提示语模板库 | `npx seedance-prompt-library install` |
+| 反转搞笑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` |
+| 奇幻科幻大场面 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-epic-fantasy-scifi` |
+| 早年 DV 家庭录像 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-retro-dv-home-video` |
+| 3D 卡通角色短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-3d-cartoon` |
+| 分镜网格转视频 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-storyboard-grid-to-video` |
+| 电影感旅行漫游 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-travel-city-walk` |
+| 宠物动物当主角 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-pet-animal` |
+| 汽车与载具速度片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-car-vehicle` |
+| 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-fashion-lookbook` |
+| 恐怖悬疑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-horror-suspense` |
+| 体育与极限运动 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-sports-extreme` |
+| GoodCase 案例查询 | `npx skills add LearnPrompt/goodcase-lite --skill goodcase` |
+| POV / Vlog 临场感 | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence` |
+| 产品广告镜头 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design` |
+| 动画风格与角色一致性 | `npx skills add LearnPrompt/goodcase-lite --skill animation-style-consistency` |
+| 动作连续性编排 | `npx skills add LearnPrompt/goodcase-lite --skill action-continuity-choreography` |
+| 过程与变换叙事 | `npx skills add LearnPrompt/goodcase-lite --skill process-transformation-story` |
+| 早年 DV 家庭录像 | `npx skills add LearnPrompt/goodcase-lite --skill retro-dv-home-video` |
+| 奇幻科幻大场面 | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle` |
+| 反转搞笑短片 | `npx skills add LearnPrompt/goodcase-lite --skill twist-comedy-skit` |
+| 3D 卡通角色短片 | `npx skills add LearnPrompt/goodcase-lite --skill 3d-cartoon-character-short` |
+| 电影感旅行漫游 | `npx skills add LearnPrompt/goodcase-lite --skill travel-city-walk` |
+| 宠物动物当主角 | `npx skills add LearnPrompt/goodcase-lite --skill pets-and-animals-lead` |
+| 汽车与载具速度片 | `npx skills add LearnPrompt/goodcase-lite --skill vehicles-at-speed` |
+| 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/goodcase-lite --skill fashion-lookbook-portrait` |
+| 恐怖悬疑短片 | `npx skills add LearnPrompt/goodcase-lite --skill horror-suspense-short` |
+| 体育与极限运动 | `npx skills add LearnPrompt/goodcase-lite --skill sports-extreme-stunts` |
+| 分镜网格转视频 | `npx skills add LearnPrompt/goodcase-lite --skill storyboard-grid-to-video` |
 
 **如何使用**
 
