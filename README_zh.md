@@ -142,6 +142,17 @@
 
 Skill 是装进 Claude Code、Codex 这类 agent 里的指令包。装好以后直接跟 agent 说你要什么，它自己选模板、填结构，还能调风格库一次给你出好几种画风。下面是 29 个 Skill，另有 31 个创作者变体，带着某位创作者的个人风格。
 
+**这些 Skill 能做什么**
+
+| 功能 | 具体能帮你做什么 |
+| --- | --- |
+| 提示语生成 | 把一句普通需求扩写成完整 Seedance 提示语，包含主体、镜头、场景、时间轴、动作和负面约束。 |
+| 自动选模板 | 按用途选择已经验证过的结构：广告、UGC、口播对话、动作、旅行、宠物、恐怖、奇幻、汽车、时尚、运动、3D 卡通等。 |
+| 风格控制 | 调用风格库，在不改主体和剧情要求的前提下，一次生成多种可选画风。 |
+| 参考图锁定 | 明确哪些细节必须继承参考图，哪些细节不能串到其他角色、产品或场景里。 |
+| 分镜转视频 | 支持先做编号分镜图，再把分镜图连接成 Seedance 视频镜头提示语。 |
+| 案例校验 | 用真实案例的经验、常见失败点和示例输出检查草稿，减少跑偏。 |
+
 <table>
 <tr>
 <td width="33%" valign="top" align="center"><table><tbody><tr><td><a href="https://goodcase.ai/cases/seedance-25-diner-frozen-time-rewind"><img src="https://media.goodcase.ai/media/poster/seedance-25-diner-frozen-time-rewind.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/vlog-c8171f712492"><img src="https://media.goodcase.ai/media/poster/vlog-c8171f712492.jpg" width="128" alt=""></a></td></tr><tr><td><a href="https://goodcase.ai/cases/seedance-25-kpop-mv-dual-idol"><img src="https://media.goodcase.ai/media/poster/seedance-25-kpop-mv-dual-idol.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/seedance-25-minidv-coffee-asmr-vlog"><img src="https://media.goodcase.ai/media/poster/seedance-25-minidv-coffee-asmr-vlog.jpg" width="128" alt=""></a></td></tr></tbody></table><a href="https://github.com/LearnPrompt/awesome-seedance/tree/main/agents/skills/seedance-prompt-library"><b>Seedance 提示语模板库</b></a><br><sub>本仓自带的 Skill。把这页所有分类模板和风格库装进 agent，让它在你的编辑器里直接写出结构化的 Seedance 提示语。</sub><br><br><code>npx seedance-prompt-library install</code></td>
