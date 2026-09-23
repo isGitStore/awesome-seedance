@@ -142,6 +142,17 @@ Templates driven by body mechanics, beat placement or a physics set-piece rather
 
 A Skill is an installable instruction pack for coding agents (Claude Code, Codex and friends). Install one and just tell your agent what you want: it picks the template, fills the structure, and pulls from the style library to give you several looks at once. 29 Skills below, plus 31 creator variants that carry one creator's signature style.
 
+**What these Skills do**
+
+| Function | What it means in practice |
+| --- | --- |
+| Prompt drafting | Turn a plain request into a complete Seedance prompt with subject, camera, scene, timing, motion and negative constraints. |
+| Template selection | Pick the closest proven structure for ads, UGC, dialogue, action, travel, pets, horror, fantasy, cars, fashion, sports, 3D cartoon and more. |
+| Style control | Pull from the style library to create several looks while keeping the same subject and story requirements. |
+| Reference locking | Name what must be inherited from reference images and what must not leak across characters, products or scenes. |
+| Storyboard workflow | Support image-to-video planning by turning numbered storyboard grids into connected Seedance shot prompts. |
+| Evidence-backed review | Check a draft against real case guidance, common failure modes and linked example outputs before final use. |
+
 <table>
 <tr>
 <td width="33%" valign="top" align="center"><table><tbody><tr><td><a href="https://goodcase.ai/cases/seedance-25-diner-frozen-time-rewind"><img src="https://media.goodcase.ai/media/poster/seedance-25-diner-frozen-time-rewind.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/vlog-c8171f712492"><img src="https://media.goodcase.ai/media/poster/vlog-c8171f712492.jpg" width="128" alt=""></a></td></tr><tr><td><a href="https://goodcase.ai/cases/seedance-25-kpop-mv-dual-idol"><img src="https://media.goodcase.ai/media/poster/seedance-25-kpop-mv-dual-idol.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/seedance-25-minidv-coffee-asmr-vlog"><img src="https://media.goodcase.ai/media/poster/seedance-25-minidv-coffee-asmr-vlog.jpg" width="128" alt=""></a></td></tr></tbody></table><a href="https://github.com/LearnPrompt/awesome-seedance/tree/main/agents/skills/seedance-prompt-library"><b>Seedance Prompt Library</b></a><br><sub>This repo's Skill. Every category template on this page plus the style library, so your agent writes structured Seedance prompts inside your editor.</sub><br><br><code>npx seedance-prompt-library install</code></td>
