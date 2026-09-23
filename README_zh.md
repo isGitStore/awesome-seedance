@@ -153,6 +153,27 @@ Skill 是装进 Claude Code、Codex 这类 agent 里的指令包。装好以后�
 | 分镜转视频 | 支持先做编号分镜图，再把分镜图连接成 Seedance 视频镜头提示语。 |
 | 案例校验 | 用真实案例的经验、常见失败点和示例输出检查草稿，减少跑偏。 |
 
+**如何安装**
+
+按你的需求选一种安装方式：
+
+| 需求 | 命令 | 什么时候用 |
+| --- | --- | --- |
+| 安装完整 Seedance 模板库 | `npx seedance-prompt-library install` | 最推荐先装这个。它会把完整模板库装进 Claude Code / Codex。 |
+| 只安装某一个垂直 Skill | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` | 只想做某一类视频时用这个。把命令里的 `seedance-meme-comedy` 换成下面任意一个 `seedance-...` Skill 名即可。 |
+| 安装 GoodCase 案例查询 Skill | `npx skills add LearnPrompt/goodcase-lite --skill goodcase` | 想让 agent 查更大的 GoodCase 案例库时用这个，不只限于本仓库。 |
+
+**如何使用**
+
+安装后，打开 Claude Code、Codex 或其他兼容 Skill 的 agent，直接说你要做什么视频，不需要自己手动复制模板。
+
+| 步骤 | 动作 | 例子 / 细节 |
+| --- | --- | --- |
+| 1 | 说清楚目标 | 例如：`用 Seedance 写一条 10 秒红色咖啡杯产品广告提示语，电影感但要真实。` |
+| 2 | 补充素材和限制 | 上传参考图，或说明产品、人物、地点、时长、比例、平台、不能变形的细节。 |
+| 3 | 指定输出格式 | 可以要求 agent 输出最终 Seedance prompt、按镜头拆分的版本，或一次给 3 个不同风格版本。 |
+| 4 | 生成后继续迭代 | 把 prompt 粘到 Seedance / Dreamina / 即梦里生成。画面跑偏时，让 agent 加强身份锁定、动作顺序、时间码或负面约束。 |
+
 <table>
 <tr>
 <td width="33%" valign="top" align="center"><table><tbody><tr><td><a href="https://goodcase.ai/cases/seedance-25-diner-frozen-time-rewind"><img src="https://media.goodcase.ai/media/poster/seedance-25-diner-frozen-time-rewind.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/vlog-c8171f712492"><img src="https://media.goodcase.ai/media/poster/vlog-c8171f712492.jpg" width="128" alt=""></a></td></tr><tr><td><a href="https://goodcase.ai/cases/seedance-25-kpop-mv-dual-idol"><img src="https://media.goodcase.ai/media/poster/seedance-25-kpop-mv-dual-idol.jpg" width="128" alt=""></a></td><td><a href="https://goodcase.ai/cases/seedance-25-minidv-coffee-asmr-vlog"><img src="https://media.goodcase.ai/media/poster/seedance-25-minidv-coffee-asmr-vlog.jpg" width="128" alt=""></a></td></tr></tbody></table><a href="https://github.com/LearnPrompt/awesome-seedance/tree/main/agents/skills/seedance-prompt-library"><b>Seedance 提示语模板库</b></a><br><sub>本仓自带的 Skill。把这页所有分类模板和风格库装进 agent，让它在你的编辑器里直接写出结构化的 Seedance 提示语。</sub><br><br><code>npx seedance-prompt-library install</code></td>
