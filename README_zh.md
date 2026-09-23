@@ -165,39 +165,70 @@ Skill 是装进 Claude Code、Codex 这类 agent 里的指令包。装好以后�
 
 **完整安装命令清单**
 
-下面把 README 里列出的每个 Skill 安装命令全部写出来，直接复制对应命令即可：
+下面把 README 里列出的 60 个可安装 Skill 和创作者变体全部写出来，直接复制对应命令即可：
 
-| Skill | 安装命令 |
-| --- | --- |
-| Seedance 提示语模板库 | `npx seedance-prompt-library install` |
-| 反转搞笑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` |
-| 奇幻科幻大场面 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-epic-fantasy-scifi` |
-| 早年 DV 家庭录像 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-retro-dv-home-video` |
-| 3D 卡通角色短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-3d-cartoon` |
-| 分镜网格转视频 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-storyboard-grid-to-video` |
-| 电影感旅行漫游 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-travel-city-walk` |
-| 宠物动物当主角 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-pet-animal` |
-| 汽车与载具速度片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-car-vehicle` |
-| 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-fashion-lookbook` |
-| 恐怖悬疑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-horror-suspense` |
-| 体育与极限运动 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-sports-extreme` |
-| GoodCase 案例查询 | `npx skills add LearnPrompt/goodcase-lite --skill goodcase` |
-| POV / Vlog 临场感 | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence` |
-| 产品广告镜头 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design` |
-| 动画风格与角色一致性 | `npx skills add LearnPrompt/goodcase-lite --skill animation-style-consistency` |
-| 动作连续性编排 | `npx skills add LearnPrompt/goodcase-lite --skill action-continuity-choreography` |
-| 过程与变换叙事 | `npx skills add LearnPrompt/goodcase-lite --skill process-transformation-story` |
-| 早年 DV 家庭录像 | `npx skills add LearnPrompt/goodcase-lite --skill retro-dv-home-video` |
-| 奇幻科幻大场面 | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle` |
-| 反转搞笑短片 | `npx skills add LearnPrompt/goodcase-lite --skill twist-comedy-skit` |
-| 3D 卡通角色短片 | `npx skills add LearnPrompt/goodcase-lite --skill 3d-cartoon-character-short` |
-| 电影感旅行漫游 | `npx skills add LearnPrompt/goodcase-lite --skill travel-city-walk` |
-| 宠物动物当主角 | `npx skills add LearnPrompt/goodcase-lite --skill pets-and-animals-lead` |
-| 汽车与载具速度片 | `npx skills add LearnPrompt/goodcase-lite --skill vehicles-at-speed` |
-| 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/goodcase-lite --skill fashion-lookbook-portrait` |
-| 恐怖悬疑短片 | `npx skills add LearnPrompt/goodcase-lite --skill horror-suspense-short` |
-| 体育与极限运动 | `npx skills add LearnPrompt/goodcase-lite --skill sports-extreme-stunts` |
-| 分镜网格转视频 | `npx skills add LearnPrompt/goodcase-lite --skill storyboard-grid-to-video` |
+| 类型 | Skill | 安装命令 |
+| --- | --- | --- |
+| 基础 Skill | Seedance 提示语模板库 | `npx seedance-prompt-library install` |
+| 基础 Skill | 反转搞笑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-meme-comedy` |
+| 基础 Skill | 奇幻科幻大场面 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-epic-fantasy-scifi` |
+| 基础 Skill | 早年 DV 家庭录像 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-retro-dv-home-video` |
+| 基础 Skill | 3D 卡通角色短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-3d-cartoon` |
+| 基础 Skill | 分镜网格转视频 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-storyboard-grid-to-video` |
+| 基础 Skill | 电影感旅行漫游 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-travel-city-walk` |
+| 基础 Skill | 宠物动物当主角 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-pet-animal` |
+| 基础 Skill | 汽车与载具速度片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-car-vehicle` |
+| 基础 Skill | 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-fashion-lookbook` |
+| 基础 Skill | 恐怖悬疑短片 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-horror-suspense` |
+| 基础 Skill | 体育与极限运动 | `npx skills add LearnPrompt/awesome-seedance --skill seedance-sports-extreme` |
+| 基础 Skill | GoodCase 案例查询 | `npx skills add LearnPrompt/goodcase-lite --skill goodcase` |
+| 基础 Skill | POV / Vlog 临场感 | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence` |
+| 创作者变体 | POV / Vlog 临场感 / aiwithaly | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1noa4gp` |
+| 创作者变体 | POV / Vlog 临场感 / AIwithkhan | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-wat8s8` |
+| 创作者变体 | POV / Vlog 临场感 / doctorwasif | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1jqwyww` |
+| 创作者变体 | POV / Vlog 临场感 / ElsaSofia__AI | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1yyrk1e` |
+| 创作者变体 | POV / Vlog 临场感 / iamahmedfaraz66 | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1798qo` |
+| 创作者变体 | POV / Vlog 临场感 / johnAGI168 | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1d090cw` |
+| 创作者变体 | POV / Vlog 临场感 / saniaspeaks_ | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-e2fac1` |
+| 创作者变体 | POV / Vlog 临场感 / Strength04_X | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-1sduwzc` |
+| 创作者变体 | POV / Vlog 临场感 / techhalla | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-6moylp` |
+| 创作者变体 | POV / Vlog 临场感 / ZaraIrahh | `npx skills add LearnPrompt/goodcase-lite --skill pov-vlog-presence-by-ha1tt9` |
+| 基础 Skill | 产品广告镜头 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design` |
+| 创作者变体 | 产品广告镜头 / AIwithSynthia | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design-by-1ktgmlf` |
+| 创作者变体 | 产品广告镜头 / johnAGI168 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design-by-1d090cw` |
+| 创作者变体 | 产品广告镜头 / Just_sharon7 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design-by-1wr1qau` |
+| 创作者变体 | 产品广告镜头 / laviniavelle | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design-by-1napzjr` |
+| 创作者变体 | 产品广告镜头 / 卡尔 | `npx skills add LearnPrompt/goodcase-lite --skill product-ad-shot-design-by-1cw2bs8` |
+| 基础 Skill | 动画风格与角色一致性 | `npx skills add LearnPrompt/goodcase-lite --skill animation-style-consistency` |
+| 创作者变体 | 动画风格与角色一致性 / Just_sharon7 | `npx skills add LearnPrompt/goodcase-lite --skill animation-style-consistency-by-1wr1qau` |
+| 创作者变体 | 动画风格与角色一致性 / noorwithwifi | `npx skills add LearnPrompt/goodcase-lite --skill animation-style-consistency-by-1diwzmp` |
+| 基础 Skill | 动作连续性编排 | `npx skills add LearnPrompt/goodcase-lite --skill action-continuity-choreography` |
+| 创作者变体 | 动作连续性编排 / haruuraeadss | `npx skills add LearnPrompt/goodcase-lite --skill action-continuity-choreography-by-1lcb8j2` |
+| 基础 Skill | 过程与变换叙事 | `npx skills add LearnPrompt/goodcase-lite --skill process-transformation-story` |
+| 基础 Skill | 早年 DV 家庭录像 | `npx skills add LearnPrompt/goodcase-lite --skill retro-dv-home-video` |
+| 创作者变体 | 早年 DV 家庭录像 / AIwithkhan | `npx skills add LearnPrompt/goodcase-lite --skill retro-dv-home-video-by-wat8s8` |
+| 创作者变体 | 早年 DV 家庭录像 / techhalla | `npx skills add LearnPrompt/goodcase-lite --skill retro-dv-home-video-by-6moylp` |
+| 基础 Skill | 奇幻科幻大场面 | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle` |
+| 创作者变体 | 奇幻科幻大场面 / CharaspowerAI | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle-by-uaxh44` |
+| 创作者变体 | 奇幻科幻大场面 / laviniavelle | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle-by-1napzjr` |
+| 创作者变体 | 奇幻科幻大场面 / Strength04_X | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle-by-1sduwzc` |
+| 创作者变体 | 奇幻科幻大场面 / Zyrellix | `npx skills add LearnPrompt/goodcase-lite --skill epic-fantasy-scifi-spectacle-by-1r2e570` |
+| 基础 Skill | 反转搞笑短片 | `npx skills add LearnPrompt/goodcase-lite --skill twist-comedy-skit` |
+| 创作者变体 | 反转搞笑短片 / Ciri_ai | `npx skills add LearnPrompt/goodcase-lite --skill twist-comedy-skit-by-1en62on` |
+| 基础 Skill | 3D 卡通角色短片 | `npx skills add LearnPrompt/goodcase-lite --skill 3d-cartoon-character-short` |
+| 创作者变体 | 3D 卡通角色短片 / Zarnab_with_Ai | `npx skills add LearnPrompt/goodcase-lite --skill 3d-cartoon-character-short-by-18gc2qf` |
+| 基础 Skill | 电影感旅行漫游 | `npx skills add LearnPrompt/goodcase-lite --skill travel-city-walk` |
+| 创作者变体 | 电影感旅行漫游 / CaliraVal | `npx skills add LearnPrompt/goodcase-lite --skill travel-city-walk-by-1uczxsi` |
+| 创作者变体 | 电影感旅行漫游 / nawalsehar | `npx skills add LearnPrompt/goodcase-lite --skill travel-city-walk-by-ewg9kn` |
+| 基础 Skill | 宠物动物当主角 | `npx skills add LearnPrompt/goodcase-lite --skill pets-and-animals-lead` |
+| 创作者变体 | 宠物动物当主角 / Zarnab_with_Ai | `npx skills add LearnPrompt/goodcase-lite --skill pets-and-animals-lead-by-18gc2qf` |
+| 基础 Skill | 汽车与载具速度片 | `npx skills add LearnPrompt/goodcase-lite --skill vehicles-at-speed` |
+| 基础 Skill | 时尚 lookbook 与人像写真片 | `npx skills add LearnPrompt/goodcase-lite --skill fashion-lookbook-portrait` |
+| 创作者变体 | 时尚 lookbook 与人像写真片 / noorlewisx | `npx skills add LearnPrompt/goodcase-lite --skill fashion-lookbook-portrait-by-1oyim0r` |
+| 基础 Skill | 恐怖悬疑短片 | `npx skills add LearnPrompt/goodcase-lite --skill horror-suspense-short` |
+| 创作者变体 | 恐怖悬疑短片 / doctorwasif | `npx skills add LearnPrompt/goodcase-lite --skill horror-suspense-short-by-1jqwyww` |
+| 基础 Skill | 体育与极限运动 | `npx skills add LearnPrompt/goodcase-lite --skill sports-extreme-stunts` |
+| 基础 Skill | 分镜网格转视频 | `npx skills add LearnPrompt/goodcase-lite --skill storyboard-grid-to-video` |
 
 **如何使用**
 
